@@ -21,7 +21,7 @@
 .calculator {
     margin-top: 10%;
     display: grid;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
 }
 
 .btn {
@@ -33,7 +33,9 @@
     padding: 20px 30px;
     transition: all 0.3s ease-in;
     border: 0.3px solid rgba(251, 253, 255, 0.171);
-
+    margin: 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10%;
 }
 
 #input {
@@ -46,8 +48,9 @@
     padding-right: 10px;
     font-size: 3em;
     text-align: right;
-    background-color: #223850;
-    transition: all 0.3s ease-in
+    background-color: #2b2828;
+    transition: all 0.3s ease-in;
+    border-radius: 20px;
 }
 
 
@@ -55,29 +58,30 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     text-align: center;
+    
 
 }
 .btn-operator {
-    background-color: #128094;
+    background-color: #3a3a3a;
     color: #ffffff;
 }
 
 .btn-operator:hover {
-    background-color: rgb(52, 155, 196) 
+    background-color: rgb(75, 75, 75) 
 }
 
 .btn-num {
-    background-color: #223850;
-    color: #6885A7;
+    background-color: #b8b9b9;
+    color: #ffffff;
 }
 
 .btn-num:hover {
-    background-color: #83a1c0;
+    background-color: #515152;
 }
 
 .equal  {
     grid-row: span 2;
-    background-color: #128094;
+    background-color: #3a3a3a;
 }
 
 .dot {
