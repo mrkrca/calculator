@@ -1,5 +1,13 @@
 const inputField = document.getElementById('input');
-const insertNum = num => inputField.textContent += num
+
+
+
+
+function insertNum(num){
+    inputField.textContent += num
+}
+
+
 
 function equalTo(){
     if(inputField.textContent){
